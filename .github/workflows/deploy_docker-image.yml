@@ -8,6 +8,7 @@ on:
 env:
   RELEASE_VERSION: v${{ github.event.client_payload.version }}
   TAG_VERSION: ghcr.io/${{ github.repository_owner }}/backstage:${{ github.event.client_payload.version }}
+  NODE_AUTH_TOKEN: none
 
 permissions:
   contents: read
