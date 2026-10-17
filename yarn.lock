@@ -23549,9 +23549,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacheable-request@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "cacheable-request@npm:7.0.2"
+"cacheable-request@npm:^7.0.1":
+  version: 7.0.4
+  resolution: "cacheable-request@npm:7.0.4"
   dependencies:
     clone-response: "npm:^1.0.2"
     get-stream: "npm:^5.1.0"
@@ -23560,7 +23560,7 @@ __metadata:
     lowercase-keys: "npm:^2.0.0"
     normalize-url: "npm:^6.0.1"
     responselike: "npm:^2.0.0"
-  checksum: 10/51404dd0b669d34f68f191d88d84e0d223e274808f7ab668192bc65e2a9133b4f5948a509d8272766dd19e46decb25b53ca1e23d3ec3846937250f4eb1f9c7d9
+  checksum: 10/0f4f2001260ecca78b9f64fc8245e6b5a5dcde24ea53006daab71f5e0e1338095aa1512ec099c4f9895a9e5acfac9da423cb7c079e131485891e9214aca46c41
   languageName: node
   linkType: hard
 
@@ -29736,22 +29736,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"got@npm:^11.7.0":
-  version: 11.8.6
-  resolution: "got@npm:11.8.6"
+"got@npm:11.8.2":
+  version: 11.8.2
+  resolution: "got@npm:11.8.2"
   dependencies:
     "@sindresorhus/is": "npm:^4.0.0"
     "@szmarczak/http-timer": "npm:^4.0.5"
     "@types/cacheable-request": "npm:^6.0.1"
     "@types/responselike": "npm:^1.0.0"
     cacheable-lookup: "npm:^5.0.3"
-    cacheable-request: "npm:^7.0.2"
+    cacheable-request: "npm:^7.0.1"
     decompress-response: "npm:^6.0.0"
     http2-wrapper: "npm:^1.0.0-beta.5.2"
     lowercase-keys: "npm:^2.0.0"
     p-cancelable: "npm:^2.0.0"
     responselike: "npm:^2.0.0"
-  checksum: 10/a30c74029d81bd5fe50dea1a0c970595d792c568e188ff8be254b5bc11e6158d1b014570772d4a30d0a97723e7dd34e7c8cc1a2f23018f60aece3070a7a5c2a5
+  checksum: 10/be4e8062971b75f8e39b900870d43d98d7afc3cbbaa9f12393f0b3d0b50261e96d705268682ff1c1d38f4b48e0bec12a63aa0f8f9a5600727ea0d52408d38d4f
   languageName: node
   linkType: hard
 
