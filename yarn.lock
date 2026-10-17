@@ -2063,6 +2063,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@backstage/cli-common@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "@backstage/cli-common@npm:0.3.1"
+  dependencies:
+    "@backstage/errors": "npm:^1.3.1"
+    cross-spawn: "npm:^7.0.3"
+  checksum: 10/2e89b26f13d11003e95039908dd5d91e05ad8c86da978bff177f271d796cf0b4d9240559c43b3df79bcb41f171cc9167b0cd5f456d7e32c836e0b5112fca8c73
+  languageName: node
+  linkType: hard
+
 "@backstage/cli-common@workspace:^, @backstage/cli-common@workspace:packages/cli-common":
   version: 0.0.0-use.local
   resolution: "@backstage/cli-common@workspace:packages/cli-common"
@@ -2876,7 +2886,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@backstage/create-app@workspace:*, @backstage/create-app@workspace:^, @backstage/create-app@workspace:packages/create-app":
+"@backstage/create-app@npm:0.9.2":
+  version: 0.9.2
+  resolution: "@backstage/create-app@npm:0.9.2"
+  dependencies:
+    "@backstage/cli-common": "npm:^0.3.1"
+    chalk: "npm:^4.0.0"
+    commander: "npm:^14.0.3"
+    fs-extra: "npm:^11.2.0"
+    handlebars: "npm:^4.7.3"
+    inquirer: "npm:^8.2.0"
+    ora: "npm:^5.3.0"
+    recursive-readdir: "npm:^2.2.2"
+  bin:
+    backstage-create-app: bin/backstage-create-app
+  checksum: 10/2e2231cdbc8805f671eb5f54aa07f8b08ba153ff33eaaa1f1c25c46bb75058cb3e80d5b2b0dea5da87fde74474ba0aaf6f5f8e7734c70214b685e3f4acd14bd6
+  languageName: node
+  linkType: hard
+
+"@backstage/create-app@workspace:^, @backstage/create-app@workspace:packages/create-app":
   version: 0.0.0-use.local
   resolution: "@backstage/create-app@workspace:packages/create-app"
   dependencies:
@@ -2956,6 +2984,16 @@ __metadata:
       optional: true
   languageName: unknown
   linkType: soft
+
+"@backstage/errors@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "@backstage/errors@npm:1.3.1"
+  dependencies:
+    "@backstage/types": "npm:^1.2.2"
+    serialize-error: "npm:^8.0.1"
+  checksum: 10/c4611ab47f7b39dc9e8223590bbf3bdba7eddcd8444fe0c9fc43b4dbe95aeb8d9bab2923208a2e2e7b85fd4339d979fc70679d03ee6e07bc40ee1c85e66ae179
+  languageName: node
+  linkType: hard
 
 "@backstage/errors@workspace:^, @backstage/errors@workspace:packages/errors":
   version: 0.0.0-use.local
@@ -7407,7 +7445,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@backstage/types@workspace:^, @backstage/types@workspace:packages/types":
+"@backstage/types@npm:^1.2.2, @backstage/types@workspace:^, @backstage/types@workspace:packages/types":
   version: 0.0.0-use.local
   resolution: "@backstage/types@workspace:packages/types"
   dependencies:
@@ -41288,7 +41326,7 @@ __metadata:
   dependencies:
     "@backstage/cli": "workspace:*"
     "@backstage/cli-defaults": "workspace:*"
-    "@backstage/create-app": "workspace:*"
+    "@backstage/create-app": "npm:0.9.2"
     "@backstage/e2e-test-utils": "workspace:*"
     "@backstage/errors": "workspace:^"
     "@backstage/eslint-plugin": "workspace:*"
